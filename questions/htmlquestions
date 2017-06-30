@@ -1,0 +1,26 @@
+Source: https://www.toptal.com/html5/interview-questions
+
+1. What were some of the key goals and motivations for the HTML5 specification?
+
+2. What are some of the key new features in HTML5?
+
+3. What are “web workers”?
+
+4. How do you indicate the character set being used by an HTML5 document? How does this differ from older HTML standards?
+
+5. Discuss the differences between an HTML specification and a browser’s implementation thereof.
+
+6. Briefly describe the correct usage of the following HTML5 semantic elements: <header>, <article>, <section>, <footer>.
+
+7. Can a <section> contain <article> elements? Can an <article> contain <section> elements? Provide usage examples.
+
+8. Can a web page contain multiple <header> elements? What about <footer> elements?
+
+9. Describe the relationship between the <header> and <h1> tags in HTML5.
+
+10. Give a simple implementation of the <video> tag to embed a video stored at http://www.example.com/amazing_video.mp4. Give the video a width of 640 pixels by 360 pixels. Provide the user with controls.
+
+11. Write the code necessary to create a 300 pixel by 300 pixel <canvas>. Within it, paint a blue 100 pixel by 100 pixel square with the top-left corner of the square located 50 pixels from both the top and left edges of the canvas.
+
+12. What is HTML5 Web Storage? Explain localStorage and sessionStorage.
+

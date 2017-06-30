@@ -1,0 +1,73 @@
+Goal: To build a web app which allows a person to log in and take a custom, random quiz about different coding and web development topics. A user can log in, specify which types of questions he/she would like, and the app will dynamically produce a quiz on that topic. The user will self-assess their response, in order to initially eliminate the logic portion of grading the quiz.
+
+Technology:
+	This will be constructed using the MEAN stack, MongoDB for the database, Express for routing and webserver, Nodejs for all backend work, and Angular for the front-end appearance. 
+
+Quiz Modes:
+	1. One-question-at-a-time with dynamic scaling (answer question, check answer, computer adjusts difficulty of next question based on confidence in answer, like the GRE)
+	2. 3 - 5 questions at a time, grading done completely at the end 
+	3. Timed modes for both of the above, and untimed modes
+	4. Question types selectable (MC, Open Ended, Code-producing or conceptual)
+	5. Answer submitted CAN be a picture, (questionable upgrade)
+
+Views needed:
+
+	1. Splash page and login
+	2. User overview (information about past quizzes, charts of progress, estimated work time)
+	3. New quiz setup (start point for taking a new quiz)
+	4. Quiz pages/cards (depending on quiz mode, this can be either a scrolling list of questions or just one), timer optional
+	5. End-of-quiz answer and self-evaluation page (each question MUST have an established 'good' answer or set of answers so that the test-taker can self-evaluate)
+	6. Reddit-style message board for new questions/discussion
+	7. New question submission page
+	8. New question discussion page
+	9. Moderator view/tools for the reddit message board
+
+Basic Quiz Flow:
+	1. Quiz setup page. Student selects quiz format, and question banks and difficulty/dynamic difficulty
+	2. Question page. Question is presented, along with a text box to record their answer. Optional submission of photo in case writing by hand is desired
+	3. Answer page. Student will self-evaluate their score to their answers on a 0 to 5 scale, comparing their answer to community-established 'good' or 'perfect' answers.
+	4. Return to user overview, updating student data as needed.
+
+Database Overview
+	What objects are in my database?
+		1. Question object. This is the most basic object, consisting of the question itself, its topic, a set of answers, its difficulty score from 0 to 9, and its rating from 0.0 to 5.0
+
+		2. User object. This contains information about the user, username, email, encrypted password, 
+
+		3. Progress and ability, scores in every category, which questions they have seen and the score they have given themselves on it, and a record of their scores in every category over time
+
+Reddit-style discussion board
+	What are the basic pieces of a community-moderated, reddit-style discussion board?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+1. Explain the CSS “box model” and the layout components that it consists of. Provide some usage examples.
+
+2. Explain what elements will match each of the following CSS selectors:
+	div, p
+	div p
+	div > p
+	div + p
+	div ~ p
+
+3. Explain the meaning of each of these CSS units for expressing length:
+	cm
+	em
+	in
+	mm
+	pc
+	pt
+	px
+
+4. In CSS3, how would you select:
+	Every <a> element whose href attribute value begins with “https”.
+	Every <a> element whose href attribute value ends with “.pdf”.
+	Every <a> element whose href attribute value contains the substring “css”.
+
+5. Given the following HTML:
+
+		<div id="page">
+		  <h1>Heading Title</h1>
+		  <h2>Subheading Title</h2>
+		  <h2>Subheading Title</h2>
+		  <h1>Heading Title</h1>
+		  <h2>Subheading Title</h2>
+		  <h1>Heading Title</h1>
+		</div>
+		How could you use CSS to achieve the following automatic numbering:
+
+		1) Heading Title
+		1.1) Subheading Title
+		1.2) Subheading Title
+
+		2) Heading Title
+		2.1) Subheading Title
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3) Heading Title
